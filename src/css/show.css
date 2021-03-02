@@ -1,0 +1,26 @@
+.mainContainers{
+position:relative;
+left:8.2rem;
+}
+.container{
+width:100%;
+margin-bottom:1rem;
+}
+.mainContainers__head >p{
+opacity:0.5;
+margin-bottom:1rem;
+}
+.container__link{
+opacity:0.5;
+
+}
+.container__title>a{
+font-size: 1.3rem;
+
+text-decoration: none;
+margin-bottom:1.5rem;
+}
+.container__snippet>p{
+width:50%;
+margin-top:0.2rem;
+}

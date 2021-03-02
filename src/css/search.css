@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContainer{
+display:flex;
+flex-direction:column;
+}
+.mainContainer__header {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.mainContainer__logo > img {
+  height: 7rem;
+}
+.mainContainer__search > input {
+  outline: none;
+
+  position: relative;
+  top: 2rem;
+  text-align: left;
+  width: 650px;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 4.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 2.2rem;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0.2px;
+}
+
+.mainContainer__search > .icons {
+  position: relative;
+  opacity: 0.7;
+  color: blue;
+  top: 2rem;
+  right: 3rem;
+}
+.mainContainer__search > .cutIcons {
+  position: relative;
+  border:none;
+  opacity: 0.5;
+  top: 2rem;
+  right: 4rem;
+}
+.mainContainer__search__straightline {
+  height: 1.6rem;
+  width: 1px;
+  opacity: 0.2;
+  float: right;
+  position: relative;
+  right: 4.5rem;
+  top: 2.3rem;
+  border: 1px solid;
+}
+@media only screen and (width <= 800px ) {
+    .mainContainer__search > input {
+  width: 230px;
+}      
+}
+
