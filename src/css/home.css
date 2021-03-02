@@ -59,7 +59,7 @@ height:100%;
 }
 @media only screen and (width <= 800px ) {
    .main {
-margin:1rem;
+margin:2rem;
   display: flex;
   position: absolute;
 transform: translate(8%, 28%);
