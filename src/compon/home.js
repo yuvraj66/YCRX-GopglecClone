@@ -22,7 +22,7 @@ return(
     </div>
     <div className="main__submit">
         <input type="submit" style={style}  value="YCRX Search"/>
-       <input type="submit" style={style} value="I'm Feeling Lucky"/>
+   
     </div>
    </form>
 </div>
