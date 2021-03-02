@@ -104,3 +104,25 @@ padding-left:3.4rem;
 }
 
 }
+@media only screen and (width >= 2560px ) {
+   .main {
+  display: flex;
+  position: absolute;
+left:27rem;
+  flex-direction: column;
+}
+.main__form .main__search .main__search__input  {
+  width:380px; 
+min-width:576px;
+width:70px;
+margin-left:-1.7rem;
+padding-left:3.4rem;
+}
+.main__form .main__search .icon {
+  position: relative;
+  float: left;
+  left: 1rem;
+  top: 0.9rem;
+}
+
+}
