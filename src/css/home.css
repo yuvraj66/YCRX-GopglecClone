@@ -25,6 +25,7 @@ transform: translate(60%, 28%);
   top: 0.9rem;
 }
 .main__form .main__search .main__search__input {
+
   outline: none;
   text-align: left;
   width: 550px;
@@ -65,6 +66,8 @@ transform: translate(8%, 28%);
 }
 .main__form .main__search .main__search__input  {
   width:380px; 
+min-width:576px;
+
 margin-left:-1.7rem;
 padding-left:3.4rem;
 }
@@ -78,4 +81,26 @@ padding-left:3.4rem;
   position: relative;
   left: 1rem;
 }
+}
+@media only screen and (width >= 1440px ) {
+   .main {
+  display: flex;
+  position: absolute;
+transform: translate(80%, 78%);
+  flex-direction: column;
+}
+.main__form .main__search .main__search__input  {
+  width:380px; 
+min-width:576px;
+width:70px;
+margin-left:-1.7rem;
+padding-left:3.4rem;
+}
+.main__form .main__search .icon {
+  position: relative;
+  float: left;
+  left: 1rem;
+  top: 0.9rem;
+}
+
 }
