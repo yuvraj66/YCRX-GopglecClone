@@ -65,8 +65,7 @@ transform: translate(8%, 28%);
   flex-direction: column;
 }
 .main__form .main__search .main__search__input  {
-  width:380px; 
-min-width:576px;
+  width:320px; 
 
 margin-left:-1.7rem;
 padding-left:3.4rem;
