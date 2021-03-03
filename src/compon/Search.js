@@ -20,7 +20,9 @@ const [info,setInfo]=useState('');
  const response=await axios.get(`https://www.googleapis.com/customsearch/v1?key=${key}&cx=${cx}&q=${state}`);
 if(response){
 setResults(response.data.items);
+console.log(response.data.items);
 setInfo(response.data.searchInformation);
+console.log(response.data.searchInformation);
 }
 }
 catch (error){
