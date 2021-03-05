@@ -45,7 +45,9 @@ console.log(error);
 }
 getQueries();
 },[]);
-
+const value=()=>{
+document.getElementById('inputValue').value = ''
+}
   return (
  <div className="mainContainer">
 <div className="mainContainer__header">
@@ -54,14 +56,15 @@ getQueries();
         </div>
         <form onSubmit={searchGoogle}>
    <div className="mainContainer__search">
-        <input type="text" value={state} onChange={(e)=>setState(e.target.value)}/>
-       <button className="cutIcons"><i class="fas fa-cut"></i></button> 
-        <i class="fas fa-search icons"></i>
+        <input type="text" id="inputValue" value={state} onChange={(e)=>setState(e.target.value)}/>
+     <i class="fas fa-search icons" onClick={searchGoogle}></i>
         <div className="mainContainer__search__straightline">
         
         </div>
 </div>
 </form>
+  <button onClick={value} className="cutIcons"><i class="fas fa-cut"></i></button> 
+        
     </div>
 <Show info={info}results={results}/>
     </div> 

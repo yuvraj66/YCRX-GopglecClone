@@ -1,9 +1,11 @@
 .mainContainers{
-position:relative;
-left:8.2rem;
+
+  : relative;
+margin-left:5rem;
+margin-right:5rem;
 }
 .container{
-width:100%;
+
 margin-bottom:1rem;
 }
 .mainContainers__head >p{
@@ -15,7 +17,7 @@ opacity:0.5;
 
 }
 .container__title{
-width:50%;
+
 }
 .container__title>a{
 font-size: 1.3rem;
@@ -24,7 +26,13 @@ text-decoration: none;
 margin-bottom:1.5rem;
 }
 .container__snippet>p{
-width:50%;
+
 margin-top:0.2rem;
 }
+h1{
+position:relative;
+top:7rem;
+font-size:2rem;
+}
+
 

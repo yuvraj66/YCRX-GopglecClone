@@ -16,7 +16,7 @@ return(
     </div>
    <form className="main__form" onSubmit={searchGoogle}>
    <div className="main__search">
-        <input className="main__search__input"type="text"  autoFocus onChange={(e)=>setstate(e.target.value)}/>
+        <input className="main__search__input"type="text"  autoFocus  onChange={(e)=>setstate(e.target.value)}/>
         <i class="fas fa-search icon"></i>
 
     </div>
