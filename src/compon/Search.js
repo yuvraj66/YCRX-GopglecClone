@@ -12,7 +12,7 @@ const [info,setInfo]=useState('');
         props.history.push("/");
     }
     const clear=()=>{
-      props.location.state="";
+     setState("");
     }
     const searchGoogle=async (e)=>{
         e.preventDefault();
@@ -20,10 +20,7 @@ const [info,setInfo]=useState('');
  const response=await axios.get(`https://www.googleapis.com/customsearch/v1?key=${key}&cx=${cx}&q=${state}`);
 if(response){
 setResults(response.data.items);
-console.log(response.data.items);
 setInfo(response.data.searchInformation);
-console.log(response.data.searchInformation);
-}
 }
 catch (error){
 console.log(error);
@@ -36,7 +33,6 @@ async function getQueries(){
 if(response){
 setResults(response.data.items);
 setInfo(response.data.searchInformation);
-console.log(response.data.items);
 }
 }
 catch (error){
